@@ -1,0 +1,172 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.6;
+  padding-top: 60px;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
+
+.logo {
+  color: #00ffff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00ffff;
+}
+
+/* Header Section */
+.header-text {
+  padding: 4rem 2rem 2rem;
+}
+
+.header-text h1 {
+  font-size: 2.5rem;
+  color: #00ffff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  color: #00ffff;
+}
+
+/* General Section Layout */
+section {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+/* Grid Layouts for Projects & Certificates */
+.projects-grid,
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+/* Cards */
+.project-card,
+.certificate-card {
+  background: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover,
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3,
+.certificate-card h3 {
+  color: #00ffff;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p,
+.certificate-card p {
+  color: #dddddd;
+}
+
+.certificate-card a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.certificate-card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+#contact p {
+  margin: 0.5rem 0;
+}
+
+#contact a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .header-text h1 {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
