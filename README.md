@@ -1,58 +1,31 @@
-# OphilliaNkuna.github.io
-👋 Hi, I'm Ophillia Nkuna!
+# 🩺 Voiceflow Health Assistant Chatbot
 
-🌍 Based in: Johannesburg, Soweto
+This is a no-code AI-powered chatbot developed using [Voiceflow](https://www.voiceflow.com/). The assistant is designed to help users with general health-related queries in a conversational and user-friendly way.
 
-👩‍💻 Current Role: AI Intern at CapaCiTi 
+## 🔗 Live Demo
 
-👩‍🎓 About Me 
+👉 [Try the Assistant Now](https://creator.voiceflow.com/prototype/68273c270e5b7d1dbaa4b959)
 
-I am a passionate and curious tech enthusiast focused on building practical solutions using modern tools and technologies. I am especially interested in AI, no code/low code platforms, and creating tools that simplify complex processes.
-Currently, I'm working on projects like generative AI with no code, automation workflows, and user-friendly web tools. I'm always learning, whether it's Python, APIs, or new no code/code integrations.
+## 💡 Features
 
-🛠️ Technical Skills & Tools
+- Built using Voiceflow's visual, no-code platform  
+- Provides friendly responses to general health-related questions  
+- Runs on web chat prototype (Voiceflow)  
+- Easy to expand and customize with more dialogue paths  
+- Voice and text input options available  
 
-Python
-make.com
-Microsoft Power Agent
+## 📸 Screenshot (Optional)
 
-🚀 What I'm Working On
+You can include a screenshot of the chatbot interface here:
 
-Generative AI with no code tools
-Creating automation workflows
-Building user-friendly web tools
-🌟 Highlighted Projects
+![Chatbot Screenshot](screenshot.png)
 
-🤖 Chatbot on Microsoft Power Agent
-Try my chatbot!
+## 👩🏽‍💻 Author
 
-🗣️ Healthcare Appointment Booking Bot (Voiceflow)
-Book an appointment using my Voiceflow bot!
+**Ophillia Nkuna**  
+🔗 [Portfolio Website](https://your-portfolio-link.com)  
+🔗 [LinkedIn](https://linkedin.com/in/your-profile)
 
-📄 Resume Builder 
-building an friendly resume where u can choose template. 
+---
 
-sentimental dashboard
-where the user can use it for good and bad reccomandations. 
-
-🏅 Certifications
-
-AI Fluency Learning Pathway (MasterSkill, CapaCiTi)
-
-Generative AI Certificate (Coursera)
-
-Write a Professional Email Certificate (Coursera)
-
-🧩 Hobbies & Interests
-
-Socializing & interacting with people
-Reading books
-Sewing
-Coding and learning new tech!
-
-🌐 Connect with Me
-
-LinkedIn: Ophillia Nkuna
-Personal Email: ophilliankuna@gmail.com
-Work Email: ophiillia.nkuna@capaciti.org.za
-“Keep learning. Keep building. Keep connecting.
+> This project is part of my AI/ML Portfolio showcasing no-code AI tool integration for practical real-world applications.
