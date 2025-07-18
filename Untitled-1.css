@@ -170,3 +170,65 @@ ul li {
     font-size: 1.5rem;
   }
 }
+.download-cv {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+#capstone {
+  background-color: #111; /* Dark section background */
+  color: #f0f0f0;         /* Light text for contrast */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#capstone h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00ffff; /* Accent color */
+}
+
+#capstone h3 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+#capstone p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+#capstone a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+#capstone a:hover {
+  background-color: #00cccc;
+}
+
