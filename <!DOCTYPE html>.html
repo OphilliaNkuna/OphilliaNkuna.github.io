@@ -8,16 +8,34 @@
     <title>Ophillia Nkuna · AI/ML Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+    const toggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+    });
+</script>
+
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
+<!-- Navbar -->
+<nav class="navbar">
     <div class="logo">Portfolio</div>
-    <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#contacts">Contacts</a></li>
+
+    <!-- Hamburger Icon -->
+    <div class="menu-toggle" id="menu-toggle">
+    ☰
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certificates">Certificates</a></li>
+    <li><a href="#contact">Contacts</a></li>
+    </ul>
+</nav>
+
     </ul>
     </nav>
 
@@ -26,12 +44,26 @@
     <p class="tagline">Transforming Data Into Intelligent Solutions for Real-World Impact</p>
     </header>
 
-    <!-- About Section -->
     <section id="about">
     <h2 class="section-title">About Me</h2>
     <p>
-        I am Ophillia Nkuna, a dedicated AI/ML enthusiast with a passion for solving problems using data-driven technologies.
-        My journey includes hands-on experience with Python, machine learning models, and deploying solutions through intuitive web interfaces.
+    I am Ophillia Nkuna, an aspiring AI/ML Developer passionate about solving real-world problems using intelligent systems. 
+    I specialize in transforming data into insights through machine learning and Python-based tools.
+    </p>
+    <p>
+    My learning journey includes building hands-on projects such as a Sentiment Analysis Dashboard, AI Fraud Detection System, 
+    and a Voice-Activated Health Assistant Chatbot. These experiences helped me master tools like Streamlit, Flask, Scikit-learn, 
+    and no-code platforms like Glide and Make.com.
+    </p>
+    <p>
+    I'm passionate about responsible AI development, fairness in machine learning, and creating accessible tools that benefit everyone. 
+    My mission is to develop impactful AI solutions in fields like healthcare, education, and social services.
+    </p>
+    <p>
+    I thrive in collaborative environments, enjoy problem-solving, and continuously seek to grow my technical and soft skills.
+    </p>
+</section>
+
     </p>
     </section>
 
@@ -48,26 +80,31 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
     <div class="projects-grid">
 
-        <article class="project-card" data-link="https://copilotstudio.microsoft.com/environments/Default-a3f14f21-237f-4028-b978-425eb768a716/bots/crac2_agent1/canvas?__version__=2&enableFileAttachment=true">
+    <article class="project-card">
         <h3>AI Chatbot Assistant</h3>
         <p>A conversational assistant powered by natural language processing (NLP).</p>
-        </article>
+        <a href="https://copilotstudio.microsoft.com/environments/Default-a3f14f21-237f-4028-b978-425eb768a716/bots/crac2_agent1/canvas?__version__=2&enableFileAttachment=true" target="_blank">View Project</a>
+    </article>
 
-        <article class="project-card" data-link="https://sentimental-7lazj7jmarilhqx5qrpx7c.streamlit.app/">
-        <h3>Sentiment Analysis Dashboard</h3>
-        <p>An interactive dashboard that analyzes and visualizes public sentiment.</p>
-        </article>
+    <article class="project-card">
+        <h3>Resume Builder</h3>
+        <p>An AI-powered no-code resume builder that helps users create customized, ATS-friendly resumes quickly and easily.</p>
+        <a href="https://generated-resume2-shl9.vercel.app/" target="_blank">View Project</a>
+    </article>
 
-        <article class="project-card" data-link="https://melida23-fraud-detection-system-app2-nlnt0q.streamlit.app/">
+    <article class="project-card">
         <h3>AI Fraud Detection System</h3>
         <p>A machine learning-powered system designed to detect and prevent fraud.</p>
-        </article>
+        <a href="https://melida23-fraud-detection-system-app2-nlnt0q.streamlit.app/" target="_blank">View Project</a>
+    </article>
 
     </div>
-    </section>
+</section>
+
 
     <!-- Certificates Section -->
 <section id="certificates">
@@ -75,13 +112,13 @@
     <div class="certificates-grid">
 
     <div class="certificate-card">
-        <h3>Generative Al Introduction and Application</h3>
-        <a href="file:///C:/Users/CAPACITI-JHB/Downloads/Ophillia%20Nkuna-210186687.pdf" target="_blank">View Certificate</a>
+        <h3>Developing Interpersonal Skills</h3>
+        <a href="https://www.coursera.org/account/accomplishments/verify/86DFTXI23WNM" target="_blank">View Certificate</a>
     </div>
 
     <div class="certificate-card">
         <h3>Al Foundation and Python Development</h3>
-        <a href="file:///C:/Users/CAPACITI-JHB/Downloads/Ophillia%20Nkuna-210231415.pdf" target="_blank">View Certificate</a>
+        <a href="https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/1" target="_blank">View Certificate</a>
     </div>
 
     <div class="certificate-card">
@@ -94,37 +131,48 @@
 <!-- Capstone Showcase -->
 <section id="capstone">
     <h2 class="section-title">Capstone Project Showcase</h2>
-    <h3>Smart Health Assistant Chatbot</h3>
+    <h3>Sentiment Analysis Dashboard</h3>
     <p>
-    This AI-powered health assistant chatbot answers user health-related queries using GPT-4, Streamlit, and voice recognition APIs.
+    This interactive AI dashboard analyzes and visualizes public sentiment using natural language processing and machine learning models. 
+    It demonstrates how text input can be processed, classified, and displayed in real-time using Streamlit.
     </p>
-    <a href="https://your-demo-link.com" target="_blank">View Live Demo</a> |
-    <a href="https://youtu.be/your-youtube-demo" target="_blank">Watch Demo Video</a>
+
+    <!-- ✅ Real deployed app -->
+    <a href="https://sentimental-7lazj7jmarilhqx5qrpx7c.streamlit.app/" 
+        target="_blank" 
+        class="live-demo-btn">🌐 View Live Demo</a>
+    
+</section>
     <div></div>
-    <section id="projects">
-    <h2>Voiceflow Health Assistant</h2>
-    <p>A no-code AI-powered assistant created using Voiceflow to help users with general health-related queries.</p>
-    <a href="https://creator.voiceflow.com/prototype/68273c270e5b7d1dbaa4b959" target="_blank">Launch Assistant</a> |
-    <a href="https://github.com/OphilliaNkuna/OphilliaNkuna.github.io/blob/main/README.md" target="_blank">View GitHub README</a>
+    <section id="voiceflow" class="capstone-style">
+    <h2 class="section-title">Voiceflow Health Assistant</h2>
+    <p>
+    A no-code AI-powered assistant created using Voiceflow to help users with general health-related queries.
+    </p>
+    <a href="https://creator.voiceflow.com/prototype/68273c270e5b7d1dbaa4b959" target="_blank" class="live-demo-btn">🚀 Launch Assistant</a> |
+    <a href="https://github.com/OphilliaNkuna/OphilliaNkuna.github.io/blob/main/README.md" target="_blank" class="github-link">View GitHub README</a>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-content">
+    <p>Email: <a href="mailto:ophilliankuna@gmail.com">ophilliankuna@gmail.com</a></p>
+    <p>Work Email: <a href="mailto:ophiillia.nkuna@capaciti.org.za">ophiillia.nkuna@capaciti.org.za</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ophillia-nkuna-7ab09b22b" target="_blank" rel="noopener noreferrer">linkedin.com/in/ophillia-nkuna</a></p>
+    <p>GitHub: <a href="https://github.com/OphilliaNkuna/OphilliaNkuna.github.io" target="_blank" rel="noopener noreferrer">github.com/OphilliaNkuna</a></p>
+    </div>
+</section>
+
+<section id="cv">
+  <div class="cv-buttons">
+    <a href="Ophillia_Nkuna_CV_Capaciti.pdf" target="_blank" class="btn view-btn">View CV</a>
+    <a href="Ophillia_Nkuna_CV_Capaciti.pdf" download class="btn download-btn">Download CV</a>
+  </div>
 </section>
 
 </section>
 
-
-<!-- Contact Section -->
-<section id="contacts">
-    <h2 class="section-title">Contacts</h2>
-    <p>Email: ophilliankuna@gmail.com</p>
-    <p>Work Email: ophiillia.nkuna@capaciti.org.za</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ophillia-nkuna-7ab09b22b?" target="_blank">linkedin.com/in/ophillia-nkuna</a></p>
-    <p>GitHub: <a href="https://github.com/OphilliaNkuna/OphilliaNkuna.github.io" target="_blank">github.com/OphilliaNkuna</a></p>
 </section>
-
-<!-- Download CV Button -->
-<section class="download-cv">
-    <a href="OphilliaNkuna_CV.pdf" download class="download-btn">Download My CV</a>
-</section>
-
 <!-- Highlight and Open Project on Click -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
