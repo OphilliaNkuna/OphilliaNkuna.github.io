@@ -23,10 +23,9 @@ I'm Ophillia Nkuna — an aspiring AI/ML Developer passionate about solving real
 
 | Project | Description | Live Link |
 |--------|-------------|-----------|
-| **AI Chatbot Assistant** | NLP-powered conversational agent | [https://copilotstudio.microsoft.com/environments/Default-a3f14f21-237f-4028-b978-425eb768a716/bots/crac2_agent1/canvas?__version__=2&enableFileAttachment=true" target="_blank">View Project</a>
-    </article>?__version__=2&enableFileAttachment=true) |
+| **AI Chatbot Assistant** | NLP-powered conversational agent | [https://copilotstudio.microsoft.com/environments/Default-a3f14f21-237f-4028-b978-425eb768a716/bots/crac2_agent1/canvas?
 | **Resume Builder** | No-code ATS-friendly resume generator | [(https://generated-resume2-shl9.vercel.app/) |
-| **AI Fraud Detection System** | ML-based fraud detection app | [La](https://melida23-fraud-detection-system-app2-nlnt0q.streamlit.app/) |
+| **AI Fraud Detection System** | ML-based fraud detection app | [(https://melida23-fraud-detection-system-app2-nlnt0q.streamlit.app/) |
 | **Sentiment Analysis Dashboard** | Real-time text classification & NLP | (https://sentimental-7lazj7jmarilhqx5qrpx7c.streamlit.app/) |
 | **Voiceflow Health Assistant** | No-code AI assistant for health queries | (https://creator.voiceflow.com/prototype/68273c270e5b7d1dbaa4b959) |
 
