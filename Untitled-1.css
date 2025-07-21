@@ -14,6 +14,13 @@ body {
   padding-top: 60px;
 }
 
+/* Reusable Gradient Text Class */
+.gradient-text {
+  background: linear-gradient(45deg, #72a1de, #f77bda);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Navigation Bar */
 .navbar {
   position: fixed;
@@ -136,31 +143,99 @@ ul li {
 }
 
 /* Contact Section */
-/* Align contact content to the left */
-#contact,
-#contact p,
-#contact a {
+.contact-section {
+  padding: 60px 20px;
+  background: #0d1117;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #161b22;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
   text-align: left;
-  max-width: 1000px;
-  margin: 0 auto 2rem;
-  padding: 0 1rem;
-  color: #00ffff;
 }
 
-#contact a {
-  color: #00ffff;
-  text-decoration: none;
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
 }
 
-#contact a:hover {
-  text-decoration: underline;
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #0d1117;
+  color: #fff;
+  border: 1px solid #333;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #72a1de;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+#formStatus {
+  font-size: 0.95rem;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-box a {
+  color: #72a1de;
+  margin-right: 15px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-box a:hover {
+  color: #f77bda;
+}
+
+.contact-form .btn {
+  background: #72a1de;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form .btn:hover {
+  background: #f77bda;
 }
 
 /* Download CV Section */
-/* Align CV buttons container and buttons to the left */
 .cv-buttons {
   display: flex;
-  justify-content: flex-start; /* Align buttons to left */
+  justify-content: flex-start;
   gap: 1rem;
   max-width: 1000px;
   margin: 0 auto 2rem;
@@ -241,7 +316,6 @@ ul li {
   background-color: #00cccc;
 }
 
-/* Capstone Box Style */
 .capstone-style {
   background-color: #111;
   color: #f0f0f0;
@@ -314,7 +388,6 @@ ul li {
     font-size: 1rem;
   }
 
-  /* Hamburger Menu */
   .menu-toggle {
     display: block;
   }
@@ -336,7 +409,6 @@ ul li {
     text-align: center;
   }
 
-  /* Responsive for Contact and CV */
   #contact,
   #contact p,
   #contact a,
@@ -354,7 +426,6 @@ ul li {
   }
 }
 
-/* Hamburger Icon */
 .menu-toggle {
   display: none;
   font-size: 2rem;
