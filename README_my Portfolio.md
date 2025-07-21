@@ -1,51 +1,76 @@
+# Ophillia Nkuna · AI/ML Portfolio
 
-# 💼 AI/ML Portfolio – Ophillia Nkuna
+Welcome to my personal portfolio website! This site showcases my AI/ML projects, skills, certifications, and contact information — all designed to reflect my journey and passion for building impactful, intelligent systems.
 
-Welcome to my AI/ML Portfolio! This repository showcases my learning journey, technical projects, and hands-on experience with various AI, machine learning, and data science tools. Each project highlights a specific skill or capability in the AI/ML space, from no-code tools to full Python development.
-
-## 📁 Featured Projects
-
-### 1. Smart Health Assistant Chatbot (Capstone)
-An AI-powered health chatbot using GPT-4 and Streamlit that allows users to ask health-related questions via voice and text.
-- 🔗 Demo: _Not deployed yet_
-- 📄 [Capstone README](link-to-project-readme)
-- 🛠️ Technologies: Python, OpenAI API, Streamlit, TTS
-
-### 2. Voiceflow Health Assistant (No-Code)
-A conversational health assistant built using Voiceflow's no-code visual editor.
-- 🔗 [Live Demo](https://creator.voiceflow.com/prototype/68273c270e5b7d1dbaa4b959)
-- 📄 [Voiceflow README](./voiceflow/README.md)
-- 🛠️ Technologies: Voiceflow
-
-### 3. Sentiment Analysis Dashboard
-A Streamlit dashboard to perform multi-class sentiment classification using a pre-trained NLP model.
-- 🔗 Demo: _Pending deployment_
-- 🛠️ Technologies: Python, scikit-learn, Streamlit
+ **Live Website**: [ophillian.com](https://ophillian.com) *(or replace with your GitHub Pages link)*
 
 ---
 
-## 🧠 Skills & Tools
+##  About Me
 
-- **Languages:** Python, HTML, CSS, Markdown
-- **AI/ML:** OpenAI API, scikit-learn, pandas, NumPy
-- **No-code Tools:** Voiceflow, Tally, Make.com, Glide
-- **Web:** Streamlit, GitHub Pages, Flask (basic)
-- **Version Control:** Git, GitHub
+I'm Ophillia Nkuna — an aspiring AI/ML Developer passionate about solving real-world problems using machine learning and responsible AI practices. I enjoy working on impactful solutions across healthcare, education, and social services.
 
----
-
-## 🎯 Career Objectives
-
-I am passionate about building ethical, user-friendly AI solutions that solve real-world problems. My goal is to become an AI/ML practitioner contributing to human-centered technology in healthcare, education, or accessibility.
+###  Core Skills
+- Python, NumPy, Pandas, Scikit-learn
+- Machine Learning & Deep Learning
+- Streamlit, Flask, HTML/CSS
+- Data Analysis & Visualization
+- No-code tools: Glide, Make.com, Tally, Voiceflow
 
 ---
 
-## 🔗 Connect With Me
+## Featured Projects
 
-- 🌐 [Portfolio Website](https://your-portfolio-link.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/ophillia-nkuna-7ab09b22b?)
-- 📂 [GitHub](https://github.com/OphilliaNkuna/OphilliaNkuna.github.io)
+| Project | Description | Live Link |
+|--------|-------------|-----------|
+| **AI Chatbot Assistant** | NLP-powered conversational agent | [Launch](https://copilotstudio.microsoft.com/environments/Default-a3f14f21-237f-4028-b978-425eb768a716/bots/crac2_agent1/canvas?__version__=2&enableFileAttachment=true) |
+| **Resume Builder** | No-code ATS-friendly resume generator | [Launch](https://generated-resume2-shl9.vercel.app/) |
+| **AI Fraud Detection System** | ML-based fraud detection app | [Launch](https://melida23-fraud-detection-system-app2-nlnt0q.streamlit.app/) |
+| **Sentiment Analysis Dashboard** | Real-time text classification & NLP | [Launch](https://sentimental-7lazj7jmarilhqx5qrpx7c.streamlit.app/) |
+| **Voiceflow Health Assistant** | No-code AI assistant for health queries | [Launch](https://creator.voiceflow.com/prototype/68273c270e5b7d1dbaa4b959) |
 
 ---
 
-> This portfolio is a live document and will continue to grow as I complete more projects and learn new technologies.
+##  Certifications
+
+- [Developing Interpersonal Skills – Coursera](https://www.coursera.org/account/accomplishments/verify/86DFTXI23WNM)
+- [AI Foundation and Python Development – Coursera](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/1)
+- [Responsible AI Badge – Coursera](https://www.coursera.org/account/accomplishments/badge/ab24gM38QpK9uIDN_OKSPQ)
+
+---
+
+##  Contact Me
+
+- 📧 Email: ophilliankuna@gmail.com
+- 💼 Work Email: ophiillia.nkuna@capaciti.org.za  
+- 🔗 LinkedIn: [linkedin.com/in/ophillia-nkuna](https://www.linkedin.com/in/ophillia-nkuna-7ab09b22b)  
+- 💻 GitHub: [github.com/OphilliaNkuna](https://github.com/OphilliaNkuna)  
+
+---
+
+##  View CV
+
+- [ View CV (PDF)](./Ophillia_Nkuna_CV_Capaciti.pdf)
+- [⬇ Download CV](./Ophillia_Nkuna_CV_Capaciti.pdf)
+
+---
+
+##  Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend/Apps**: Python, Flask, Streamlit
+- **No-code Platforms**: Glide, Make.com, Voiceflow
+- **Tools**: VS Code, GitHub, Canva, Tally Forms
+
+---
+
+##  Goals
+
+I'm passionate about:
+- Building ethical, inclusive AI tools
+- Empowering people with accessible tech
+- Continuous learning in AI and software development
+
+---
+
+Thank you for checking out my portfolio! 🙌
