@@ -136,8 +136,15 @@ ul li {
 }
 
 /* Contact Section */
-#contact p {
-  margin: 0.5rem 0;
+/* Align contact content to the left */
+#contact,
+#contact p,
+#contact a {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  color: #00ffff;
 }
 
 #contact a {
@@ -149,50 +156,52 @@ ul li {
   text-decoration: underline;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
-  .header-text h1 {
-    font-size: 2rem;
-  }
-
-  .section-title {
-    font-size: 1.5rem;
-  }
-}
-.download-cv {
-  text-align: center;
-  margin: 40px 0;
+/* Download CV Section */
+/* Align CV buttons container and buttons to the left */
+.cv-buttons {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to left */
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  text-align: left;
 }
 
-.download-btn {
+.cv-buttons .btn {
   display: inline-block;
-  background-color: #007BFF;
-  color: white;
-  padding: 12px 24px;
+  margin: 12px 0;
+  padding: 14px 28px;
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
   border-radius: 8px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
-.download-btn:hover {
+.cv-buttons .view-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.cv-buttons .view-btn:hover {
   background-color: #0056b3;
 }
 
+.cv-buttons .download-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.cv-buttons .download-btn:hover {
+  background-color: #1e7e34;
+}
+
+/* Capstone Section */
 #capstone {
-  background-color: #111; /* Dark section background */
-  color: #f0f0f0;         /* Light text for contrast */
+  background-color: #111;
+  color: #f0f0f0;
   padding: 60px 20px;
   text-align: center;
 }
@@ -200,7 +209,7 @@ ul li {
 #capstone h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #00ffff; /* Accent color */
+  color: #00ffff;
 }
 
 #capstone h3 {
@@ -232,3 +241,123 @@ ul li {
   background-color: #00cccc;
 }
 
+/* Capstone Box Style */
+.capstone-style {
+  background-color: #111;
+  color: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.8);
+}
+
+.capstone-style .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00ffff;
+}
+
+.capstone-style p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.capstone-style a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.capstone-style a:hover {
+  background-color: #00cccc;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .header-text h1 {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .projects-grid,
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .download-btn {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  /* Hamburger Menu */
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #111;
+    padding: 1rem 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  /* Responsive for Contact and CV */
+  #contact,
+  #contact p,
+  #contact a,
+  .cv-buttons {
+    text-align: center;
+    justify-content: center !important;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .cv-buttons a {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+
+/* Hamburger Icon */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  color: #00ffff;
+  cursor: pointer;
+}
