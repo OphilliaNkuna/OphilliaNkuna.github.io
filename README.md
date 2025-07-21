@@ -2,15 +2,15 @@
 
 Welcome to my personal portfolio website! This site showcases my AI/ML projects, skills, certifications, and contact information — all designed to reflect my journey and passion for building impactful, intelligent systems.
 
-🌐 **Live Website**: [ophillian.com](https://ophillian.com) *(or replace with your GitHub Pages link)*
+ **Live Website**: [ophillian.com](https://ophillian.com) *(or replace with your GitHub Pages link)*
 
 ---
 
-## 🔍 About Me
+## About Me
 
 I'm Ophillia Nkuna — an aspiring AI/ML Developer passionate about solving real-world problems using machine learning and responsible AI practices. I enjoy working on impactful solutions across healthcare, education, and social services.
 
-### 👩‍💻 Core Skills
+###  Core Skills
 - Python, NumPy, Pandas, Scikit-learn
 - Machine Learning & Deep Learning
 - Streamlit, Flask, HTML/CSS
@@ -19,7 +19,7 @@ I'm Ophillia Nkuna — an aspiring AI/ML Developer passionate about solving real
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 | Project | Description | Live Link |
 |--------|-------------|-----------|
@@ -31,7 +31,7 @@ I'm Ophillia Nkuna — an aspiring AI/ML Developer passionate about solving real
 
 ---
 
-## 📜 Certifications
+##  Certifications
 
 - [Developing Interpersonal Skills – Coursera](https://www.coursera.org/account/accomplishments/verify/86DFTXI23WNM)
 - [AI Foundation and Python Development – Coursera](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/module/1)
@@ -39,23 +39,22 @@ I'm Ophillia Nkuna — an aspiring AI/ML Developer passionate about solving real
 
 ---
 
-## 📫 Contact Me
+##  Contact Me
 
-- 📧 Email: ophilliankuna@gmail.com
-- 💼 Work Email: ophiillia.nkuna@capaciti.org.za  
-- 🔗 LinkedIn: [linkedin.com/in/ophillia-nkuna](https://www.linkedin.com/in/ophillia-nkuna-7ab09b22b)  
-- 💻 GitHub: [github.com/OphilliaNkuna](https://github.com/OphilliaNkuna)  
-
----
-
-## 📄 View CV
-
-- [🔍 View CV (PDF)](./Ophillia_Nkuna_CV_Capaciti.pdf)
-- [⬇️ Download CV](./Ophillia_Nkuna_CV_Capaciti.pdf)
+-  Email: ophilliankuna@gmail.com
+-  Work Email: ophiillia.nkuna@capaciti.org.za  
+-  LinkedIn: [linkedin.com/in/ophillia-nkuna](https://www.linkedin.com/in/ophillia-nkuna-7ab09b22b)  
+-  GitHub: [github.com/OphilliaNkuna](https://github.com/OphilliaNkuna)  
 
 ---
 
-## 🛠️ Tech Stack
+##  View CV
+
+- [ View CV (PDF)](./Ophillia_Nkuna_CV_Capaciti.pdf)
+
+---
+
+##  Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend/Apps**: Python, Flask, Streamlit
@@ -64,7 +63,7 @@ I'm Ophillia Nkuna — an aspiring AI/ML Developer passionate about solving real
 
 ---
 
-## 🧠 Goals
+##  Goals
 
 I'm passionate about:
 - Building ethical, inclusive AI tools
