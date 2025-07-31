@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This site showcases my AI/ML projects, skills, certifications, and contact information — all designed to reflect my journey and passion for building impactful, intelligent systems.
 
- **Live Website**: https://benevolent-puffpuff-d9f3b8.netlify.app/
+ **Live Website**: https://classy-fenglisu-616213.netlify.app/
 
 ---
 
